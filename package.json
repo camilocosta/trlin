@@ -1,6 +1,9 @@
 {
   "name": "trlin-api",
   "version": "0.0.1",
+  "engines": {
+    "npm": "6.x"
+  },
   "private": true,
   "scripts": {
     "start": "node api.js"

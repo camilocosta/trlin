@@ -10,7 +10,7 @@
     "start": "node api.js"
   },
   "dependencies": {
-    "bcrypt": "^0.8.5",
+    "bcrypt": "^3.0.2",
     "body-parser": "^1.15.0",
     "dotenv": "^2.0.0",
     "errorhandler": "^1.4.3",

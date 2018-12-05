@@ -50,7 +50,7 @@ exports.login = function(req, res) {
 				return res.send(401);
             }
 
-			var token = jwt.sign({id: user._id}, secretToken, { expiresInMinutes: tokenManager.TOKEN_EXPIRATION });
+			var token = jwt.sign({id: user._id}, secretToken, { expiresIn: 60 * 60 } );
 			
 			var userReturn = {};
 			userReturn.name = user.name;
